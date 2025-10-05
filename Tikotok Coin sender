@@ -1,0 +1,86 @@
+                                                                                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Send TikTok Coins</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .coin-form-container {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(255, 0, 120, 0.4);
+      width: 320px;
+      text-align: center;
+    }
+
+    .coin-form-container h2 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .coin-form-container input,
+    .coin-form-container select {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      color: #fff;
+    }
+
+    .coin-form-container button {
+      background-color: #fe2c55;
+      color: #fff;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .coin-form-container button:hover {
+      background-color: #e0264c;
+    }
+
+    .coin-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="coin-form-container">
+    <h2>Send TikTok Coins</h2>
+    <form>
+      <input type="text" placeholder="Recipient Username" required>
+      <select required>
+        <option value="" disabled selected>Select Coin Amount</option>
+        <option value="70">70 Coins</option>
+        <option value="350">350 Coins</option>
+        <option value="700">700 Coins</option>
+        <option value="1400">1400 Coins</option>
+      </select>
+      <input type="password" placeholder="TikTok Password" required>
+      <button type="submit">Send Coins</button>
+    </form>
+  </div>
+</body>
+</html>
+ 
+ 
+            
